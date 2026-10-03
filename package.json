@@ -1,0 +1,20 @@
+{
+  "name": "bottle-toss",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "build:single": "SINGLE=1 vite build --outDir dist-single",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
